@@ -1,0 +1,116 @@
+/*rest*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* estilos de producto*/
+
+.texto1{
+    background-color: blue;
+    
+}
+.texto2{
+    background-color: aqua;
+}
+.texto3{
+    background-color: yellow;
+}
+/* estilos e laCaja*/
+
+
+
+/*estilos de caja*/
+
+.caja{ 
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+
+    /* propiedad del margin*/
+    margin: 13px 30px 20px 50px;
+    padding: 50px 30px;
+    border: 10px solid red;
+    display: inline-block
+
+}
+
+.caja1{ 
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+
+    /* propiedad del margin*/
+    margin: 13px 30px 20px 50px;
+    padding: 50px 30px;
+    border: 10px solid red;
+    display: inline-block
+
+}
+
+.ejemplo {
+   margin: 200px;
+    width: 100px;
+    height: 50px;
+    background-color: goldenrod;
+    overflow: auto;
+}
+
+
+span{
+    background-color: blue;
+    display: block;
+    display: none;
+}
+
+/*ejemplo de position*/
+
+.item-relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.item-absolute{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/*estilos del menu*/
+
+.menu{
+   margin-top: 100px;
+    background-color:yellow;
+    position: sticky;
+    top: 0;
+    z-index: 2 ;
+}
+.menu ul li{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.mena{
+    margin-top: 100px;
+     background-color: yellow;
+     position: sticky;
+     top: 0;
+     z-index: 2 ;
+ }
+ .mena ul li{
+     background-color: red;
+     margin: 10px;
+     padding: 10px;
+     display: inline-block;
+ }
+ body{
+    background-image: url(../img/horneros\ portada.jpg);
+    background-size: contain;
+    background-position: center;
+}
